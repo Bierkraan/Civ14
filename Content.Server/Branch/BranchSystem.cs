@@ -7,7 +7,6 @@ namespace Content.Server.Branch;
 public sealed class BranchSystem : EntitySystem
 {
     [Dependency] private readonly DoAfterSystem _doAfter = default!;
-
     [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     public override void Initialize()
@@ -39,9 +38,11 @@ public sealed class BranchSystem : EntitySystem
     private void OnSharpenComplete(EntityUid uid, BranchComponent component, SharpenDoAfterComplete ev)
     {
         component.CancelToken = null;
+
         var newEntity = component.Entity;
         var pos = Transform(uid).MapPosition;
-        EntityManager.SpawnEntity(newEntity, pos);
+         EntityManager.SpawnEntity(newEntity, pos);
+
         _audio.PlayPvs(component.Sound, uid);
         EntityManager.DeleteEntity(uid);
     }
