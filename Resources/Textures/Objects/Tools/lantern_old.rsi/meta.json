@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/9bebd81ae0b0a7f952b59886a765c681205de31f",
+    "copyright": "Taken from civ13",
     "size": {
     "x": 32,
     "y": 32
@@ -28,12 +28,6 @@
         {
             "name": "on-inhand-right",
             "directions": 4
-        },
-        {
-            "name": "burnt"
-        },
-        {
-            "name": "flashing"
         }
     ]
 }
