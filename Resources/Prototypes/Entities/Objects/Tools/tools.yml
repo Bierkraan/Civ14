@@ -110,6 +110,20 @@
       price: 40
 
 - type: entity
+  name: hammer
+  parent: Wrench
+  id: Hammer
+  description: "A common tool for assembly and disassembly. It's hammer time!"
+  components:
+    - type: Construction
+      graph: Hammer
+      node: hammer
+    - type: Sprite
+      sprite: Objects/Tools/hammer.rsi
+      state: icon
+      netsync: false
+
+- type: entity
   name: crowbar
   parent: BaseItem
   id: Crowbar

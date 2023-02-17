@@ -26,6 +26,33 @@
       entity: Torch
 
 - type: construction
+  name: hammer
+  id: Hammer
+  graph: Hammer
+  startNode: start
+  targetNode: hammer
+  category: construction-category-tools
+  description: A wooden hammer.
+  icon: { sprite: Objects/Tools/hammer.rsi, state: icon }
+  objectType: Item
+  ageMin: 0
+  ageMax: 8
+
+- type: constructionGraph
+  id: Hammer
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: hammer
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 5
+    - node: hammer
+      entity: Hammer
+
+- type: construction
   name: bone shovel
   id: BoneShovel
   graph: BoneShovel

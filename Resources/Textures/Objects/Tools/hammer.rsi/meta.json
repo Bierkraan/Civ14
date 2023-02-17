@@ -8,10 +8,10 @@
     },
     "states": [
         {
-            "name": "hammer"
+            "name": "icon"
         },
         {
-            "name": "hammer_modern"
+            "name": "icon-modern"
         },
         {
             "name": "inhand-left",
@@ -19,14 +19,6 @@
         },
         {
             "name": "inhand-right",
-            "directions": 4
-        },
-        {
-            "name": "inhand-left-light",
-            "directions": 4
-        },
-        {
-            "name": "inhand-right-light",
             "directions": 4
         }
     ]
