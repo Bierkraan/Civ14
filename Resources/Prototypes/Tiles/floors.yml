@@ -1105,6 +1105,19 @@
   weather: true
 
 - type: tile
+  id: FloorDirt
+  name: tiles-dirt-floor
+  sprite: /Textures/Tiles/dirt.png
+  isSubfloor: true
+  canCrowbar: false
+  footstepSounds:
+    collection: FootstepAsteroid
+  friction: 0.30
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+  weather: true
+
+- type: tile
   id: FloorGrass
   name: tiles-grass-floor
   sprite: /Textures/Tiles/Planet/Grass/grass.png
@@ -1186,21 +1199,6 @@
   canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
-  friction: 0.30
-  thermalConductivity: 0.04
-  heatCapacity: 10000
-  weather: true
-
-- type: tile
-  id: FloorDirt
-  name: tiles-dirt-floor
-  sprite: /Textures/Tiles/dirt.png
-  baseTurfs:
-    - Plating
-  isSubfloor: true
-  canCrowbar: false
-  footstepSounds:
-    collection: FootstepAsteroid
   friction: 0.30
   thermalConductivity: 0.04
   heatCapacity: 10000

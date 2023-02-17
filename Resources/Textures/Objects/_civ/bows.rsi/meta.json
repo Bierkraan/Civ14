@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "taken from civ13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bow0"
+    },
+    {
+      "name": "bow1"
+    },
+    {
+      "name": "shortbow0"
+    },
+    {
+      "name": "shortbow1"
+    },
+    {
+      "name": "longbow0"
+    },
+    {
+      "name": "longbow1"
+    },
+    {
+      "name": "pcrossbow0"
+    },
+    {
+      "name": "pcrossbow1"
+    },
+    {
+      "name": "lcrossbow0"
+    },
+    {
+      "name": "lcrossbow1"
+    },
+    {
+      "name": "ccrossbow0"
+    },
+    {
+      "name": "ccrossbow1"
+    },
+    {
+      "name": "crossbow0"
+    },
+    {
+      "name": "crossbow1"
+    },
+    {
+      "name": "compoundbow0"
+    },
+    {
+      "name": "compoundbow1"
+    },
+    {
+      "name": "sling1"
+    },
+    {
+      "name": "sling0"
+    },
+    {
+      "name": "firebow",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "poisonbow"
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": "sling3"
+    },
+    {
+      "name": "slingstaff0"
+    },
+    {
+      "name": "slingstaff1"
+    },
+    {
+      "name": "slingstaff3"
+    },
+    {
+      "name": "gscale"
+    },
+    {
+      "name": "gscale1"
+    }
+  ]
+}
